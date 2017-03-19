@@ -38,11 +38,11 @@ blockquote cite p {
     font-size: 18px;
     padding: 19px;
     margin-bottom: 20px;
-    background-color: rgba(0,0,0,0);
+    background-color: transparent;
     border: none;
     border-radius: 0px;
     -webkit-box-shadow: none;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0);
+    box-shadow: inset 0 1px 1px transparent;
 }
 
 small{
@@ -113,14 +113,11 @@ td, th {
     padding: 3px;
 }
 
-.btn {
-    margin-bottom: 10px;
-}
 
 .btn-danger {
     color: rgb(35, 40, 45);
-    background-color: rgba(0,0,0,0);
-    border-color: rgb(185,45,12);
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .col-md-4 {
@@ -131,4 +128,64 @@ td, th {
     outline: 0px auto rgb(185,45,12);
     outline-style: auto;
     outline-width: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar-nav {
+    margin: 0px 0px;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+footer{
+    border-top: dotted 1px rgb(35, 40, 45);
+}
+
+.footer-distributed{
+	background-color: rgb(220,220,220);
+    color: rgb(35, 40, 45);
+    box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px Raleway;
+	padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p{
+	color: rgb(35, 40, 45);
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 0px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  rgb(35, 40, 45);
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: rgb(220,220,220);
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+.footer-left a {
+    color: rgb(35, 40, 45);
+    text-decoration: none;
+    border-bottom: dotted 1px rgb(35, 40, 45);
 }

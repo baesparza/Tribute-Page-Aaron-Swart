@@ -11,6 +11,7 @@ import { QuoteComponent } from './components/quote.component';
 import { FooterComponent } from './components/footer.component';
 import { VidComponent } from './components/vid.component';
 import { InfoComponent } from './components/info.component';
+import { BioComponent } from './components/bio.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { InfoComponent } from './components/info.component';
     QuoteComponent,
     FooterComponent,
     VidComponent,
-    InfoComponent
+    InfoComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule,

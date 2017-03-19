@@ -10,5 +10,6 @@ export class AppComponent {
   mostrar_body:boolean = true;
   mostrar_quote:boolean = false;
   mostrar_vid:boolean = false;
+  mostrar_bio:boolean = false;
 
 }
