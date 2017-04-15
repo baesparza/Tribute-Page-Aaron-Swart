@@ -12,4 +12,4 @@ const ROUTES: Routes = [
     { path: 'Quotes', component: QuoteComponent }
 ];
 
-export const app_routing = RouterModule.forRoot(ROUTES, {useHash: true});
+export const app_routing = RouterModule.forRoot(ROUTES);
