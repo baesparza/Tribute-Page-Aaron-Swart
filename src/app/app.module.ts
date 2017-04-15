@@ -3,6 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+//Routers
+import { app_routing } from "./app.routes";
+
+
+//components
 import { AppComponent } from './app.component';
 import { BodyComponent } from './components/body.component';
 import { HeaderComponent } from './components/header.component';
@@ -29,7 +34,8 @@ import { BioComponent } from './components/bio.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    app_routing
   ],
   providers: [],
   bootstrap: [AppComponent]

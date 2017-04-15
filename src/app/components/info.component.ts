@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-info',
   templateUrl: './info.component.html'
 })
@@ -15,4 +14,6 @@ export class InfoComponent {
   ['Ocupación','Programador'],
   ['Distinciones','James Madison Award, EFF Pioneer Award, Salón de la Fama de Internet']
   ]
+
+  constructor(){}
 }
